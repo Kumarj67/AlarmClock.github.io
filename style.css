@@ -1,0 +1,68 @@
+body {
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #ecf0f3;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+  max-width: 30em;
+}
+/* styling the parent div */
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  border: 5%;
+  height: 420px;
+  border: 2px solid #ecf0f3;
+  margin-top: 95px;
+  padding-top: 85px;
+  border-radius: 25px;
+  background-color: #ecf0f3;
+  box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgba(0, 0, 0, 0.16);
+}
+/* styling timing section  */
+#time {
+  font-size: 70px;
+  margin-top: -65px;
+}
+
+h2 {
+  color: #57a1da;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  border: 2px solid #ecf0f3;
+  box-sizing: border-box;
+}
+/* styling alarm time set options */
+#alarmSecs,
+#mySelect,
+#alarmMins,
+#alarmHrs {
+  width: 100px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: 2px solid #ecf0f3;
+  box-sizing: border-box;
+  box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgba(0, 0, 0, 0.16);
+  display: inline-block;
+}
+/* styling the buttons */
+button {
+  box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px rgba(217, 20, 20, 0.16);
+
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  margin: 10px;
+  font-weight: bold;
+  color: rgb(38, 41, 41);
+  font-size: 20px;
+}
+label {
+  color: rgb(241, 17, 17);
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: bold;
+}
